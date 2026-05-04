@@ -1,0 +1,74 @@
+{
+  "default": {
+    "target": "default",
+    "region": "north",
+    "label": "Model North",
+    "filename": "mmi_model.joblib",
+    "exists": true,
+    "size_bytes": 35112369,
+    "file_updated_at": "2026-04-03 10:55:13",
+    "trained_at": "2026-04-03 10:55:13",
+    "source": "auto_train",
+    "report_summary": {
+      "model_type": "classifier",
+      "best_model_name": "rf_cls",
+      "selection_metric": "cv_accuracy_exact",
+      "best_value": 0.5736677115987461,
+      "n_rows": 957,
+      "cv_strategy": "GroupKFold(5) by event_id",
+      "cv_accuracy_exact": 0.5736677115987461
+    },
+    "model_type": "classifier",
+    "n_iter": 25,
+    "original_filename": "mmi_model.joblib",
+    "note": "auto trained from Google Sheets TrainingData"
+  },
+  "west": {
+    "target": "west",
+    "region": "west",
+    "label": "Model West",
+    "filename": "mmi_west.joblib",
+    "exists": true,
+    "size_bytes": 35112369,
+    "file_updated_at": "2026-04-03 10:55:13",
+    "trained_at": "2026-04-03 10:55:13",
+    "source": "auto_train",
+    "report_summary": {
+      "model_type": "classifier",
+      "best_model_name": "rf_cls",
+      "selection_metric": "cv_accuracy_exact",
+      "best_value": 0.5736677115987461,
+      "n_rows": 957,
+      "cv_strategy": "GroupKFold(5) by event_id",
+      "cv_accuracy_exact": 0.5736677115987461
+    },
+    "model_type": "classifier",
+    "n_iter": 25,
+    "original_filename": "mmi_model.joblib",
+    "note": "auto trained from Google Sheets TrainingData"
+  },
+  "south": {
+    "target": "south",
+    "region": "south",
+    "label": "Model South",
+    "filename": "mmi_south.joblib",
+    "exists": true,
+    "size_bytes": 35112369,
+    "file_updated_at": "2026-04-03 10:55:14",
+    "trained_at": "2026-04-03 10:55:13",
+    "source": "auto_train",
+    "report_summary": {
+      "model_type": "classifier",
+      "best_model_name": "rf_cls",
+      "selection_metric": "cv_accuracy_exact",
+      "best_value": 0.5736677115987461,
+      "n_rows": 957,
+      "cv_strategy": "GroupKFold(5) by event_id",
+      "cv_accuracy_exact": 0.5736677115987461
+    },
+    "model_type": "classifier",
+    "n_iter": 25,
+    "original_filename": "mmi_model.joblib",
+    "note": "auto trained from Google Sheets TrainingData"
+  }
+}
